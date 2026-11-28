@@ -8,7 +8,7 @@ import menuBanner from "./assets/food_menu.png";
 
 import joladaRotti from "./assets/jolada-rotti.png";
 import sajjeRotti from "./assets/sajje-rotti.png";
-import holgi from "./assets/holgi.png";
+import sengaHolgi from "./assets/senga-holgi.png";
 import shengaChutney from "./assets/shenga-chutney.png";
 import agasiChutney from "./assets/agasi-chutney.png";
 
@@ -39,16 +39,15 @@ const products = [
 },
 
 
-  {
+{
   id: 3,
-  name: "Holgi",
-  kn: "ಹೋಳಿಗೆ",
+  name: "Senga Holgi",
+  kn: "ಸೇಂಗಾ ಹೋಳಿಗೆ",
   price: 25,
   unit: "1 Piece",
-  image: holgi,
+  image: sengaHolgi,
   emoji: "🥞"
 },
-
 
   {
   id: 4,
@@ -85,7 +84,7 @@ const content = {
     contact: "Contact",
     heroTag: "AUTHENTIC NORTH KARNATAKA FOOD",
     heroTitle: "The Taste of North Karnataka, Delivered to Your Doorstep!",
-    heroDescription: "Enjoy traditional Jolada Rotti, Sajje Rotti, Holgi and homemade chutneys.",
+    heroDescription: "Enjoy traditional Jolada Rotti, Sajje Rotti, Senga Holgi and homemade chutneys.",
     orderNow: "Explore Our Menu",
     deliveryText: "Home Delivery Available",
     menuTag: "MADE WITH TRADITION",
@@ -357,10 +356,9 @@ KALBURGI ROTTI KENDRA
 
   return (<div className="website">
 
-      {/* NAVBAR */}
-
       
 {/* NAVBAR - LOGO ONLY */}
+
 <header className="navbar">
   <a href="#home" className="logo">
     <span className="logo-icon">🌾</span>
@@ -469,7 +467,7 @@ KALBURGI ROTTI KENDRA
          <div className="hero-food">
   <img
     src={foodHome}
-    alt="Traditional Jolada Rotti, Sajje Rotti, Holgi and chutneys"
+    alt="Traditional Jolada Rotti, Sajje Rotti, Senga Holgi and chutneys"
     className="hero-collage"
   />
 </div>
